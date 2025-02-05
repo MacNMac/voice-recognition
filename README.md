@@ -32,8 +32,3 @@ This project provides a Python-based audio transcription system using the Vosk s
   - `recognizeSpeech()`: Continuously listens and transcribes speech.
 - **Main Execution**
   - Creates an instance of `AUDIO` and loops to recognize speech.
-
-### Future Enhancements
-- Support for multiple languages.
-- Improved noise reduction and accuracy.
-- Integration with other speech processing models.
