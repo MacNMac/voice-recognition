@@ -48,7 +48,7 @@ class AUDIO:
 
 ## How to modify:
 ### Recording Duration
-As you can see, there's a duration variable inside the `audioCapture` function, change it to your likings. The default is 5 seconds recording, and then wait for it to proccess the given audio/data.
+As you can see, there's a ``duration`` variable inside the `audioCapture` function, change it to your likings. The default is 5 seconds recording, and then wait for it to proccess the given audio/data.
 ```python
     def audioCapture(self, duration: int = 5) -> any:
         audio_file_path = self.recordAudio(duration)
