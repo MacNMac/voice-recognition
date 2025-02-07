@@ -2,7 +2,7 @@
 
 ### Overview
 This project provides a Python-based audio transcription system using the Vosk speech recognition library. It records audio, processes it, and converts speech into text using a pre-trained Vosk model. To download the vosk model file, follow this instructions:
-- Visit [official vosk github models page](https://github.com/alphacep/vosk-space/blob/master/models.md)
+- Visit [official vosk github models page](https://github.com/alphacep/vosk-space/blob/master/models.md) and download the model you like, I recommend you to download the `lgraph` one because it was fast and average file size.
 - Modify the audio-main.py file, especially the `self.model_path`:
 ```python
 ## Class > Functions
